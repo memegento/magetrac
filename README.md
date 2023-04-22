@@ -3,7 +3,7 @@
 ### How to use
 
 - Generate `deptrac.layers.yaml` with `./magetrac.php /mg/app/code`
-- Run deptrac for 
+- Run ./deptrac 
 
 ### Deptrac config
 https://qossmic.github.io/deptrac/
@@ -20,7 +20,9 @@ deptrac:
 ./magetrac.php /mg/app/code && ./deptrack
 ```
 
-### Example run for all magento 2 repo
+### Example result for entire magento 2 repo
+
+https://github.com/magento/magento2
 
 ![](./example.png)
 

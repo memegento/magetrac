@@ -1,0 +1,6 @@
+# deptrac.layers.yaml must be generated automatically by ./magetrac.php ./your-magento/app/code
+imports:
+  - deptrac.layers.yaml
+deptrac:
+  paths:
+    - /mg/app/code/

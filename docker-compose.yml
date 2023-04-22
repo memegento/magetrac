@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  php81:
+    image: php:8.1-fpm
+    volumes:
+      - ./:/project:rw
+      - ./../../magento_2_contribution/magento:/mg:rw
+    working_dir: /project
+    user: "${UID:-1000}:${GID:-1000}"

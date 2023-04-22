@@ -1,0 +1,942 @@
+#This file is generated automatically by ./magetrac.php /mg/app/code/ for all magento modules
+deptrac:
+  layers:
+    - name: Magento_AdminAnalytics
+      collectors:
+        - type: className
+          value: Magento\\AdminAnalytics\\.*
+    - name: Magento_AdminNotification
+      collectors:
+        - type: className
+          value: Magento\\AdminNotification\\.*
+    - name: Magento_AdvancedPricingImportExport
+      collectors:
+        - type: className
+          value: Magento\\AdvancedPricingImportExport\\.*
+    - name: Magento_AdvancedSearch
+      collectors:
+        - type: className
+          value: Magento\\AdvancedSearch\\.*
+    - name: Magento_Amqp
+      collectors:
+        - type: className
+          value: Magento\\Amqp\\.*
+    - name: Magento_Analytics
+      collectors:
+        - type: className
+          value: Magento\\Analytics\\.*
+    - name: Magento_AsyncConfig
+      collectors:
+        - type: className
+          value: Magento\\AsyncConfig\\.*
+    - name: Magento_AsynchronousOperations
+      collectors:
+        - type: className
+          value: Magento\\AsynchronousOperations\\.*
+    - name: Magento_Authorization
+      collectors:
+        - type: className
+          value: Magento\\Authorization\\.*
+    - name: Magento_AwsS3
+      collectors:
+        - type: className
+          value: Magento\\AwsS3\\.*
+    - name: Magento_Backend
+      collectors:
+        - type: className
+          value: Magento\\Backend\\.*
+    - name: Magento_Backup
+      collectors:
+        - type: className
+          value: Magento\\Backup\\.*
+    - name: Magento_Bundle
+      collectors:
+        - type: className
+          value: Magento\\Bundle\\.*
+    - name: Magento_BundleGraphQl
+      collectors:
+        - type: className
+          value: Magento\\BundleGraphQl\\.*
+    - name: Magento_BundleImportExport
+      collectors:
+        - type: className
+          value: Magento\\BundleImportExport\\.*
+    - name: Magento_CacheInvalidate
+      collectors:
+        - type: className
+          value: Magento\\CacheInvalidate\\.*
+    - name: Magento_Captcha
+      collectors:
+        - type: className
+          value: Magento\\Captcha\\.*
+    - name: Magento_CardinalCommerce
+      collectors:
+        - type: className
+          value: Magento\\CardinalCommerce\\.*
+    - name: Magento_Catalog
+      collectors:
+        - type: className
+          value: Magento\\Catalog\\.*
+    - name: Magento_CatalogAnalytics
+      collectors:
+        - type: className
+          value: Magento\\CatalogAnalytics\\.*
+    - name: Magento_CatalogCmsGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CatalogCmsGraphQl\\.*
+    - name: Magento_CatalogCustomerGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CatalogCustomerGraphQl\\.*
+    - name: Magento_CatalogGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CatalogGraphQl\\.*
+    - name: Magento_CatalogImportExport
+      collectors:
+        - type: className
+          value: Magento\\CatalogImportExport\\.*
+    - name: Magento_CatalogInventory
+      collectors:
+        - type: className
+          value: Magento\\CatalogInventory\\.*
+    - name: Magento_CatalogInventoryGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CatalogInventoryGraphQl\\.*
+    - name: Magento_CatalogRule
+      collectors:
+        - type: className
+          value: Magento\\CatalogRule\\.*
+    - name: Magento_CatalogRuleConfigurable
+      collectors:
+        - type: className
+          value: Magento\\CatalogRuleConfigurable\\.*
+    - name: Magento_CatalogRuleGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CatalogRuleGraphQl\\.*
+    - name: Magento_CatalogSearch
+      collectors:
+        - type: className
+          value: Magento\\CatalogSearch\\.*
+    - name: Magento_CatalogUrlRewrite
+      collectors:
+        - type: className
+          value: Magento\\CatalogUrlRewrite\\.*
+    - name: Magento_CatalogUrlRewriteGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CatalogUrlRewriteGraphQl\\.*
+    - name: Magento_CatalogWidget
+      collectors:
+        - type: className
+          value: Magento\\CatalogWidget\\.*
+    - name: Magento_Checkout
+      collectors:
+        - type: className
+          value: Magento\\Checkout\\.*
+    - name: Magento_CheckoutAgreements
+      collectors:
+        - type: className
+          value: Magento\\CheckoutAgreements\\.*
+    - name: Magento_CheckoutAgreementsGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CheckoutAgreementsGraphQl\\.*
+    - name: Magento_Cms
+      collectors:
+        - type: className
+          value: Magento\\Cms\\.*
+    - name: Magento_CmsGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CmsGraphQl\\.*
+    - name: Magento_CmsUrlRewrite
+      collectors:
+        - type: className
+          value: Magento\\CmsUrlRewrite\\.*
+    - name: Magento_CmsUrlRewriteGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CmsUrlRewriteGraphQl\\.*
+    - name: Magento_CompareListGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CompareListGraphQl\\.*
+    - name: Magento_Config
+      collectors:
+        - type: className
+          value: Magento\\Config\\.*
+    - name: Magento_ConfigurableImportExport
+      collectors:
+        - type: className
+          value: Magento\\ConfigurableImportExport\\.*
+    - name: Magento_ConfigurableProduct
+      collectors:
+        - type: className
+          value: Magento\\ConfigurableProduct\\.*
+    - name: Magento_ConfigurableProductGraphQl
+      collectors:
+        - type: className
+          value: Magento\\ConfigurableProductGraphQl\\.*
+    - name: Magento_ConfigurableProductSales
+      collectors:
+        - type: className
+          value: Magento\\ConfigurableProductSales\\.*
+    - name: Magento_Contact
+      collectors:
+        - type: className
+          value: Magento\\Contact\\.*
+    - name: Magento_ContactGraphQl
+      collectors:
+        - type: className
+          value: Magento\\ContactGraphQl\\.*
+    - name: Magento_Cookie
+      collectors:
+        - type: className
+          value: Magento\\Cookie\\.*
+    - name: Magento_Cron
+      collectors:
+        - type: className
+          value: Magento\\Cron\\.*
+    - name: Magento_Csp
+      collectors:
+        - type: className
+          value: Magento\\Csp\\.*
+    - name: Magento_CurrencySymbol
+      collectors:
+        - type: className
+          value: Magento\\CurrencySymbol\\.*
+    - name: Magento_Customer
+      collectors:
+        - type: className
+          value: Magento\\Customer\\.*
+    - name: Magento_CustomerAnalytics
+      collectors:
+        - type: className
+          value: Magento\\CustomerAnalytics\\.*
+    - name: Magento_CustomerDownloadableGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CustomerDownloadableGraphQl\\.*
+    - name: Magento_CustomerGraphQl
+      collectors:
+        - type: className
+          value: Magento\\CustomerGraphQl\\.*
+    - name: Magento_CustomerImportExport
+      collectors:
+        - type: className
+          value: Magento\\CustomerImportExport\\.*
+    - name: Magento_Deploy
+      collectors:
+        - type: className
+          value: Magento\\Deploy\\.*
+    - name: Magento_Developer
+      collectors:
+        - type: className
+          value: Magento\\Developer\\.*
+    - name: Magento_Dhl
+      collectors:
+        - type: className
+          value: Magento\\Dhl\\.*
+    - name: Magento_Directory
+      collectors:
+        - type: className
+          value: Magento\\Directory\\.*
+    - name: Magento_DirectoryGraphQl
+      collectors:
+        - type: className
+          value: Magento\\DirectoryGraphQl\\.*
+    - name: Magento_Downloadable
+      collectors:
+        - type: className
+          value: Magento\\Downloadable\\.*
+    - name: Magento_DownloadableGraphQl
+      collectors:
+        - type: className
+          value: Magento\\DownloadableGraphQl\\.*
+    - name: Magento_DownloadableImportExport
+      collectors:
+        - type: className
+          value: Magento\\DownloadableImportExport\\.*
+    - name: Magento_Eav
+      collectors:
+        - type: className
+          value: Magento\\Eav\\.*
+    - name: Magento_EavGraphQl
+      collectors:
+        - type: className
+          value: Magento\\EavGraphQl\\.*
+    - name: Magento_Elasticsearch
+      collectors:
+        - type: className
+          value: Magento\\Elasticsearch\\.*
+    - name: Magento_Elasticsearch7
+      collectors:
+        - type: className
+          value: Magento\\Elasticsearch7\\.*
+    - name: Magento_Email
+      collectors:
+        - type: className
+          value: Magento\\Email\\.*
+    - name: Magento_EncryptionKey
+      collectors:
+        - type: className
+          value: Magento\\EncryptionKey\\.*
+    - name: Magento_Fedex
+      collectors:
+        - type: className
+          value: Magento\\Fedex\\.*
+    - name: Magento_GiftMessage
+      collectors:
+        - type: className
+          value: Magento\\GiftMessage\\.*
+    - name: Magento_GiftMessageGraphQl
+      collectors:
+        - type: className
+          value: Magento\\GiftMessageGraphQl\\.*
+    - name: Magento_GoogleAdwords
+      collectors:
+        - type: className
+          value: Magento\\GoogleAdwords\\.*
+    - name: Magento_GoogleAnalytics
+      collectors:
+        - type: className
+          value: Magento\\GoogleAnalytics\\.*
+    - name: Magento_GoogleGtag
+      collectors:
+        - type: className
+          value: Magento\\GoogleGtag\\.*
+    - name: Magento_GoogleOptimizer
+      collectors:
+        - type: className
+          value: Magento\\GoogleOptimizer\\.*
+    - name: Magento_GraphQl
+      collectors:
+        - type: className
+          value: Magento\\GraphQl\\.*
+    - name: Magento_GraphQlCache
+      collectors:
+        - type: className
+          value: Magento\\GraphQlCache\\.*
+    - name: Magento_GroupedCatalogInventory
+      collectors:
+        - type: className
+          value: Magento\\GroupedCatalogInventory\\.*
+    - name: Magento_GroupedImportExport
+      collectors:
+        - type: className
+          value: Magento\\GroupedImportExport\\.*
+    - name: Magento_GroupedProduct
+      collectors:
+        - type: className
+          value: Magento\\GroupedProduct\\.*
+    - name: Magento_GroupedProductGraphQl
+      collectors:
+        - type: className
+          value: Magento\\GroupedProductGraphQl\\.*
+    - name: Magento_ImportExport
+      collectors:
+        - type: className
+          value: Magento\\ImportExport\\.*
+    - name: Magento_Indexer
+      collectors:
+        - type: className
+          value: Magento\\Indexer\\.*
+    - name: Magento_InstantPurchase
+      collectors:
+        - type: className
+          value: Magento\\InstantPurchase\\.*
+    - name: Magento_Integration
+      collectors:
+        - type: className
+          value: Magento\\Integration\\.*
+    - name: Magento_JwtFrameworkAdapter
+      collectors:
+        - type: className
+          value: Magento\\JwtFrameworkAdapter\\.*
+    - name: Magento_JwtUserToken
+      collectors:
+        - type: className
+          value: Magento\\JwtUserToken\\.*
+    - name: Magento_LayeredNavigation
+      collectors:
+        - type: className
+          value: Magento\\LayeredNavigation\\.*
+    - name: Magento_LoginAsCustomer
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomer\\.*
+    - name: Magento_LoginAsCustomerAdminUi
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomerAdminUi\\.*
+    - name: Magento_LoginAsCustomerApi
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomerApi\\.*
+    - name: Magento_LoginAsCustomerAssistance
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomerAssistance\\.*
+    - name: Magento_LoginAsCustomerFrontendUi
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomerFrontendUi\\.*
+    - name: Magento_LoginAsCustomerGraphQl
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomerGraphQl\\.*
+    - name: Magento_LoginAsCustomerLog
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomerLog\\.*
+    - name: Magento_LoginAsCustomerPageCache
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomerPageCache\\.*
+    - name: Magento_LoginAsCustomerQuote
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomerQuote\\.*
+    - name: Magento_LoginAsCustomerSales
+      collectors:
+        - type: className
+          value: Magento\\LoginAsCustomerSales\\.*
+    - name: Magento_Marketplace
+      collectors:
+        - type: className
+          value: Magento\\Marketplace\\.*
+    - name: Magento_MediaContent
+      collectors:
+        - type: className
+          value: Magento\\MediaContent\\.*
+    - name: Magento_MediaContentApi
+      collectors:
+        - type: className
+          value: Magento\\MediaContentApi\\.*
+    - name: Magento_MediaContentCatalog
+      collectors:
+        - type: className
+          value: Magento\\MediaContentCatalog\\.*
+    - name: Magento_MediaContentCms
+      collectors:
+        - type: className
+          value: Magento\\MediaContentCms\\.*
+    - name: Magento_MediaContentSynchronization
+      collectors:
+        - type: className
+          value: Magento\\MediaContentSynchronization\\.*
+    - name: Magento_MediaContentSynchronizationApi
+      collectors:
+        - type: className
+          value: Magento\\MediaContentSynchronizationApi\\.*
+    - name: Magento_MediaContentSynchronizationCatalog
+      collectors:
+        - type: className
+          value: Magento\\MediaContentSynchronizationCatalog\\.*
+    - name: Magento_MediaContentSynchronizationCms
+      collectors:
+        - type: className
+          value: Magento\\MediaContentSynchronizationCms\\.*
+    - name: Magento_MediaGallery
+      collectors:
+        - type: className
+          value: Magento\\MediaGallery\\.*
+    - name: Magento_MediaGalleryApi
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryApi\\.*
+    - name: Magento_MediaGalleryCatalog
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryCatalog\\.*
+    - name: Magento_MediaGalleryCatalogIntegration
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryCatalogIntegration\\.*
+    - name: Magento_MediaGalleryCatalogUi
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryCatalogUi\\.*
+    - name: Magento_MediaGalleryCmsUi
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryCmsUi\\.*
+    - name: Magento_MediaGalleryIntegration
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryIntegration\\.*
+    - name: Magento_MediaGalleryMetadata
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryMetadata\\.*
+    - name: Magento_MediaGalleryMetadataApi
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryMetadataApi\\.*
+    - name: Magento_MediaGalleryRenditions
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryRenditions\\.*
+    - name: Magento_MediaGalleryRenditionsApi
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryRenditionsApi\\.*
+    - name: Magento_MediaGallerySynchronization
+      collectors:
+        - type: className
+          value: Magento\\MediaGallerySynchronization\\.*
+    - name: Magento_MediaGallerySynchronizationApi
+      collectors:
+        - type: className
+          value: Magento\\MediaGallerySynchronizationApi\\.*
+    - name: Magento_MediaGallerySynchronizationMetadata
+      collectors:
+        - type: className
+          value: Magento\\MediaGallerySynchronizationMetadata\\.*
+    - name: Magento_MediaGalleryUi
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryUi\\.*
+    - name: Magento_MediaGalleryUiApi
+      collectors:
+        - type: className
+          value: Magento\\MediaGalleryUiApi\\.*
+    - name: Magento_MediaStorage
+      collectors:
+        - type: className
+          value: Magento\\MediaStorage\\.*
+    - name: Magento_MessageQueue
+      collectors:
+        - type: className
+          value: Magento\\MessageQueue\\.*
+    - name: Magento_Msrp
+      collectors:
+        - type: className
+          value: Magento\\Msrp\\.*
+    - name: Magento_MsrpConfigurableProduct
+      collectors:
+        - type: className
+          value: Magento\\MsrpConfigurableProduct\\.*
+    - name: Magento_MsrpGroupedProduct
+      collectors:
+        - type: className
+          value: Magento\\MsrpGroupedProduct\\.*
+    - name: Magento_Multishipping
+      collectors:
+        - type: className
+          value: Magento\\Multishipping\\.*
+    - name: Magento_MysqlMq
+      collectors:
+        - type: className
+          value: Magento\\MysqlMq\\.*
+    - name: Magento_NewRelicReporting
+      collectors:
+        - type: className
+          value: Magento\\NewRelicReporting\\.*
+    - name: Magento_Newsletter
+      collectors:
+        - type: className
+          value: Magento\\Newsletter\\.*
+    - name: Magento_NewsletterGraphQl
+      collectors:
+        - type: className
+          value: Magento\\NewsletterGraphQl\\.*
+    - name: Magento_OfflinePayments
+      collectors:
+        - type: className
+          value: Magento\\OfflinePayments\\.*
+    - name: Magento_OfflineShipping
+      collectors:
+        - type: className
+          value: Magento\\OfflineShipping\\.*
+    - name: Magento_OpenSearch
+      collectors:
+        - type: className
+          value: Magento\\OpenSearch\\.*
+    - name: Magento_PageCache
+      collectors:
+        - type: className
+          value: Magento\\PageCache\\.*
+    - name: Magento_Payment
+      collectors:
+        - type: className
+          value: Magento\\Payment\\.*
+    - name: Magento_PaymentGraphQl
+      collectors:
+        - type: className
+          value: Magento\\PaymentGraphQl\\.*
+    - name: Magento_Paypal
+      collectors:
+        - type: className
+          value: Magento\\Paypal\\.*
+    - name: Magento_PaypalCaptcha
+      collectors:
+        - type: className
+          value: Magento\\PaypalCaptcha\\.*
+    - name: Magento_PaypalGraphQl
+      collectors:
+        - type: className
+          value: Magento\\PaypalGraphQl\\.*
+    - name: Magento_Persistent
+      collectors:
+        - type: className
+          value: Magento\\Persistent\\.*
+    - name: Magento_ProductAlert
+      collectors:
+        - type: className
+          value: Magento\\ProductAlert\\.*
+    - name: Magento_ProductVideo
+      collectors:
+        - type: className
+          value: Magento\\ProductVideo\\.*
+    - name: Magento_Quote
+      collectors:
+        - type: className
+          value: Magento\\Quote\\.*
+    - name: Magento_QuoteAnalytics
+      collectors:
+        - type: className
+          value: Magento\\QuoteAnalytics\\.*
+    - name: Magento_QuoteBundleOptions
+      collectors:
+        - type: className
+          value: Magento\\QuoteBundleOptions\\.*
+    - name: Magento_QuoteConfigurableOptions
+      collectors:
+        - type: className
+          value: Magento\\QuoteConfigurableOptions\\.*
+    - name: Magento_QuoteDownloadableLinks
+      collectors:
+        - type: className
+          value: Magento\\QuoteDownloadableLinks\\.*
+    - name: Magento_QuoteGraphQl
+      collectors:
+        - type: className
+          value: Magento\\QuoteGraphQl\\.*
+    - name: Magento_RelatedProductGraphQl
+      collectors:
+        - type: className
+          value: Magento\\RelatedProductGraphQl\\.*
+    - name: Magento_ReleaseNotification
+      collectors:
+        - type: className
+          value: Magento\\ReleaseNotification\\.*
+    - name: Magento_RemoteStorage
+      collectors:
+        - type: className
+          value: Magento\\RemoteStorage\\.*
+    - name: Magento_Reports
+      collectors:
+        - type: className
+          value: Magento\\Reports\\.*
+    - name: Magento_RequireJs
+      collectors:
+        - type: className
+          value: Magento\\RequireJs\\.*
+    - name: Magento_Review
+      collectors:
+        - type: className
+          value: Magento\\Review\\.*
+    - name: Magento_ReviewAnalytics
+      collectors:
+        - type: className
+          value: Magento\\ReviewAnalytics\\.*
+    - name: Magento_ReviewGraphQl
+      collectors:
+        - type: className
+          value: Magento\\ReviewGraphQl\\.*
+    - name: Magento_Robots
+      collectors:
+        - type: className
+          value: Magento\\Robots\\.*
+    - name: Magento_Rss
+      collectors:
+        - type: className
+          value: Magento\\Rss\\.*
+    - name: Magento_Rule
+      collectors:
+        - type: className
+          value: Magento\\Rule\\.*
+    - name: Magento_Sales
+      collectors:
+        - type: className
+          value: Magento\\Sales\\.*
+    - name: Magento_SalesAnalytics
+      collectors:
+        - type: className
+          value: Magento\\SalesAnalytics\\.*
+    - name: Magento_SalesGraphQl
+      collectors:
+        - type: className
+          value: Magento\\SalesGraphQl\\.*
+    - name: Magento_SalesInventory
+      collectors:
+        - type: className
+          value: Magento\\SalesInventory\\.*
+    - name: Magento_SalesRule
+      collectors:
+        - type: className
+          value: Magento\\SalesRule\\.*
+    - name: Magento_SalesSequence
+      collectors:
+        - type: className
+          value: Magento\\SalesSequence\\.*
+    - name: Magento_SampleData
+      collectors:
+        - type: className
+          value: Magento\\SampleData\\.*
+    - name: Magento_Search
+      collectors:
+        - type: className
+          value: Magento\\Search\\.*
+    - name: Magento_Security
+      collectors:
+        - type: className
+          value: Magento\\Security\\.*
+    - name: Magento_SendFriend
+      collectors:
+        - type: className
+          value: Magento\\SendFriend\\.*
+    - name: Magento_SendFriendGraphQl
+      collectors:
+        - type: className
+          value: Magento\\SendFriendGraphQl\\.*
+    - name: Magento_Shipping
+      collectors:
+        - type: className
+          value: Magento\\Shipping\\.*
+    - name: Magento_Sitemap
+      collectors:
+        - type: className
+          value: Magento\\Sitemap\\.*
+    - name: Magento_Store
+      collectors:
+        - type: className
+          value: Magento\\Store\\.*
+    - name: Magento_StoreGraphQl
+      collectors:
+        - type: className
+          value: Magento\\StoreGraphQl\\.*
+    - name: Magento_Swagger
+      collectors:
+        - type: className
+          value: Magento\\Swagger\\.*
+    - name: Magento_SwaggerWebapi
+      collectors:
+        - type: className
+          value: Magento\\SwaggerWebapi\\.*
+    - name: Magento_SwaggerWebapiAsync
+      collectors:
+        - type: className
+          value: Magento\\SwaggerWebapiAsync\\.*
+    - name: Magento_Swatches
+      collectors:
+        - type: className
+          value: Magento\\Swatches\\.*
+    - name: Magento_SwatchesGraphQl
+      collectors:
+        - type: className
+          value: Magento\\SwatchesGraphQl\\.*
+    - name: Magento_SwatchesLayeredNavigation
+      collectors:
+        - type: className
+          value: Magento\\SwatchesLayeredNavigation\\.*
+    - name: Magento_Tax
+      collectors:
+        - type: className
+          value: Magento\\Tax\\.*
+    - name: Magento_TaxGraphQl
+      collectors:
+        - type: className
+          value: Magento\\TaxGraphQl\\.*
+    - name: Magento_TaxImportExport
+      collectors:
+        - type: className
+          value: Magento\\TaxImportExport\\.*
+    - name: Magento_Theme
+      collectors:
+        - type: className
+          value: Magento\\Theme\\.*
+    - name: Magento_ThemeGraphQl
+      collectors:
+        - type: className
+          value: Magento\\ThemeGraphQl\\.*
+    - name: Magento_Translation
+      collectors:
+        - type: className
+          value: Magento\\Translation\\.*
+    - name: Magento_Ui
+      collectors:
+        - type: className
+          value: Magento\\Ui\\.*
+    - name: Magento_Ups
+      collectors:
+        - type: className
+          value: Magento\\Ups\\.*
+    - name: Magento_UrlRewrite
+      collectors:
+        - type: className
+          value: Magento\\UrlRewrite\\.*
+    - name: Magento_UrlRewriteGraphQl
+      collectors:
+        - type: className
+          value: Magento\\UrlRewriteGraphQl\\.*
+    - name: Magento_User
+      collectors:
+        - type: className
+          value: Magento\\User\\.*
+    - name: Magento_Usps
+      collectors:
+        - type: className
+          value: Magento\\Usps\\.*
+    - name: Magento_Variable
+      collectors:
+        - type: className
+          value: Magento\\Variable\\.*
+    - name: Magento_Vault
+      collectors:
+        - type: className
+          value: Magento\\Vault\\.*
+    - name: Magento_VaultGraphQl
+      collectors:
+        - type: className
+          value: Magento\\VaultGraphQl\\.*
+    - name: Magento_Version
+      collectors:
+        - type: className
+          value: Magento\\Version\\.*
+    - name: Magento_Webapi
+      collectors:
+        - type: className
+          value: Magento\\Webapi\\.*
+    - name: Magento_WebapiAsync
+      collectors:
+        - type: className
+          value: Magento\\WebapiAsync\\.*
+    - name: Magento_WebapiSecurity
+      collectors:
+        - type: className
+          value: Magento\\WebapiSecurity\\.*
+    - name: Magento_Weee
+      collectors:
+        - type: className
+          value: Magento\\Weee\\.*
+    - name: Magento_WeeeGraphQl
+      collectors:
+        - type: className
+          value: Magento\\WeeeGraphQl\\.*
+    - name: Magento_Widget
+      collectors:
+        - type: className
+          value: Magento\\Widget\\.*
+    - name: Magento_Wishlist
+      collectors:
+        - type: className
+          value: Magento\\Wishlist\\.*
+    - name: Magento_WishlistAnalytics
+      collectors:
+        - type: className
+          value: Magento\\WishlistAnalytics\\.*
+    - name: Magento_WishlistGraphQl
+      collectors:
+        - type: className
+          value: Magento\\WishlistGraphQl\\.*
+    
+  ruleset:
+    Magento_Analytics: [Magento_Integration Magento_Backend Magento_Store Magento_Config]
+    Magento_Backend: [Magento_Directory Magento_Theme]
+    Magento_BundleGraphQl: [Magento_QuoteGraphQl Magento_Catalog Magento_BundleProduct Magento_Store Magento_GraphQl Magento_CatalogGraphQl]
+    Magento_Captcha: [Magento_Customer Magento_Checkout Magento_Sales]
+    Magento_CardinalCommerce: [Magento_Checkout Magento_Payment]
+    Magento_Catalog: [Magento_Eav Magento_Cms Magento_Indexer Magento_Customer]
+    Magento_CatalogAnalytics: [Magento_Catalog Magento_Analytics]
+    Magento_CatalogCmsGraphQl: [Magento_CmsGraphQl Magento_CatalogGraphQl]
+    Magento_CatalogCustomerGraphQl: [Magento_Catalog Magento_Customer Magento_CatalogGraphQl]
+    Magento_CatalogGraphQl: [Magento_Catalog Magento_Search Magento_Store Magento_Eav Magento_GraphQl Magento_Config Magento_StoreGraphQl Magento_EavGraphQl]
+    Magento_CatalogInventoryGraphQl: [Magento_Store Magento_Catalog Magento_CatalogInventory]
+    Magento_CatalogRule: [Magento_Rule Magento_Catalog Magento_Customer]
+    Magento_CatalogRuleConfigurable: [Magento_CatalogRule Magento_ConfigurableProduct]
+    Magento_CatalogSearch: [Magento_Search Magento_Catalog Magento_Indexer Magento_CatalogRule Magento_CatalogInventory]
+    Magento_CatalogUrlRewriteGraphQl: [Magento_UrlRewriteGraphQl Magento_CatalogGraphQl]
+    Magento_CatalogWidget: [Magento_Catalog Magento_Widget Magento_Rule]
+    Magento_Checkout: [Magento_Sales Magento_Quote Magento_CatalogInventory]
+    Magento_CheckoutAgreements: [Magento_Store Magento_Checkout]
+    Magento_Cms: [Magento_Store Magento_Theme Magento_Variable]
+    Magento_CompareListGraphQl: [Magento_Catalog Magento_Customer Magento_GraphQl Magento_CatalogGraphQl]
+    Magento_ConfigurableProduct: [Magento_Catalog Magento_Msrp Magento_CatalogInventory Magento_Sales Magento_Quote Magento_Checkout]
+    Magento_ConfigurableProductGraphQl: [Magento_Catalog Magento_ConfigurableProduct Magento_GraphQl Magento_CatalogGraphQl Magento_CatalogInventory Magento_QuoteGraphQl]
+    Magento_ConfigurableProductSales: [Magento_ConfigurableProduct Magento_Sales]
+    Magento_Customer: [Magento_Eav Magento_Directory]
+    Magento_CustomerAnalytics: [Magento_Customer Magento_Analytics]
+    Magento_CustomerDownloadableGraphQl: [Magento_GraphQl Magento_DownloadableGraphQl]
+    Magento_DownloadableGraphQl: [Magento_GraphQl Magento_Catalog Magento_CatalogGraphQl Magento_QuoteGraphQl Magento_Downloadable]
+    Magento_DownloadableImportExport: [Magento_ImportExport Magento_CatalogImportExport]
+    Magento_Eav: [Magento_Store Magento_Theme]
+    Magento_EavGraphQl: [Magento_Eav Magento_GraphQl]
+    Magento_Elasticsearch: [Magento_CatalogSearch Magento_Search Magento_AdvancedSearch]
+    Magento_Elasticsearch7: [Magento_AdvancedSearch Magento_Elasticsearch]
+    Magento_Email: [Magento_Store Magento_Cms Magento_Variable]
+    Magento_EncryptionKey: [Magento_Customer Magento_User]
+    Magento_GiftMessage: [Magento_Catalog Magento_Sales Magento_Quote]
+    Magento_GoogleGtag: [Magento_Store Magento_Checkout]
+    Magento_GoogleOptimizer: [Magento_GoogleAnalytics Magento_GoogleGtag Magento_Catalog Magento_Cms Magento_Ui]
+    Magento_GraphQl: [Magento_Authorization Magento_Eav]
+    Magento_GraphQlCache: [Magento_PageCache Magento_GraphQl]
+    Magento_GroupedCatalogInventory: [Magento_Catalog Magento_GroupedProduct]
+    Magento_GroupedProduct: [Magento_Catalog Magento_CatalogInventory Magento_Sales Magento_Quote]
+    Magento_GroupedProductGraphQl: [Magento_GroupedProduct Magento_GraphQl Magento_CatalogGraphQl]
+    Magento_Indexer: [Magento_Store Magento_AdminNotification]
+    Magento_Integration: [Magento_Store Magento_User Magento_Security]
+    Magento_LoginAsCustomerGraphQl: [Magento_LoginAsCustomerApi Magento_Customer Magento_Store Magento_CatalogGraphQl]
+    Magento_MediaStorage: [Magento_Catalog Magento_Theme]
+    Magento_MsrpConfigurableProduct: [Magento_Catalog Magento_Msrp Magento_ConfigurableProduct]
+    Magento_MsrpGroupedProduct: [Magento_Catalog Magento_Msrp Magento_GroupedProduct]
+    Magento_Multishipping: [Magento_Store Magento_Catalog]
+    Magento_NewRelicReporting: [Magento_Store Magento_Customer Magento_Backend Magento_Catalog Magento_ConfigurableProduct Magento_Config]
+    Magento_Newsletter: [Magento_Store Magento_Customer Magento_Eav Magento_Widget]
+    Magento_OfflinePayments: [Magento_Store Magento_Catalog]
+    Magento_OfflineShipping: [Magento_Store Magento_Sales Magento_Quote Magento_SalesRule]
+    Magento_OpenSearch: [Magento_Elasticsearch Magento_Config]
+    Magento_Payment: [Magento_Store Magento_Catalog]
+    Magento_Paypal: [Magento_Checkout Magento_Sales Magento_Quote Magento_Vault]
+    Magento_PaypalCaptcha: [Magento_Captcha Magento_Paypal]
+    Magento_PaypalGraphQl: [Magento_Quote Magento_Paypal Magento_QuoteGraphQl]
+    Magento_Persistent: [Magento_Checkout Magento_PageCache]
+    Magento_ProductAlert: [Magento_Catalog Magento_Customer]
+    Magento_ProductVideo: [Magento_Catalog Magento_Backend]
+    Magento_QuoteAnalytics: [Magento_Quote Magento_Analytics]
+    Magento_ReleaseNotification: [Magento_User Magento_Backend Magento_Ui]
+    Magento_RemoteStorage: [Magento_Backend Magento_Sitemap Magento_Store Magento_MediaStorage]
+    Magento_Reports: [Magento_Customer Magento_Catalog Magento_Sales Magento_Quote Magento_Cms]
+    Magento_Review: [Magento_Catalog Magento_Store]
+    Magento_ReviewAnalytics: [Magento_Review Magento_Analytics]
+    Magento_ReviewGraphQl: [Magento_GraphQl Magento_Review Magento_Store]
+    Magento_Robots: [Magento_Store Magento_Theme]
+    Magento_Sales: [Magento_Rule Magento_Catalog Magento_Customer Magento_Payment Magento_SalesSequence]
+    Magento_SalesAnalytics: [Magento_Sales Magento_Analytics]
+    Magento_SalesInventory: [Magento_Sales Magento_Catalog Magento_Store Magento_CatalogInventory]
+    Magento_SalesRule: [Magento_Rule Magento_Catalog Magento_Sales Magento_Quote]
+    Magento_Security: [Magento_Backend Magento_Store]
+    Magento_SendFriend: [Magento_Catalog Magento_Captcha]
+    Magento_Shipping: [Magento_Store Magento_Catalog Magento_Ui Magento_User]
+    Magento_Sitemap: [Magento_Robots Magento_Cms Magento_Catalog]
+    Magento_StoreGraphQl: [Magento_Store Magento_GraphQl]
+    Magento_Swatches: [Magento_Catalog Magento_ConfigurableProduct Magento_Eav Magento_Customer Magento_Store Magento_Backend Magento_MediaStorage Magento_Config Magento_LayeredNavigation Magento_Theme]
+    Magento_SwatchesGraphQl: [Magento_Catalog Magento_Swatches Magento_ConfigurableProductGraphQl]
+    Magento_SwatchesLayeredNavigation: [Magento_Swatches Magento_LayeredNavigation]
+    Magento_Tax: [Magento_Catalog Magento_Checkout Magento_Customer Magento_Directory Magento_User]
+    Magento_Theme: [Magento_Store Magento_Directory]
+    Magento_Ui: [Magento_Backend Magento_Directory]
+    Magento_User: [Magento_Backend Magento_Config]
+    Magento_Vault: [Magento_Sales Magento_Store Magento_Payment Magento_Checkout Magento_Theme]
+    Magento_Webapi: [Magento_Store Magento_Integration Magento_Backend]
+    Magento_WebapiAsync: [Magento_Webapi Magento_AsynchronousOperations]
+    Magento_Weee: [Magento_Catalog Magento_Tax Magento_Sales Magento_Quote]
+    Magento_Wishlist: [Magento_Customer Magento_Catalog Magento_Captcha]
+    Magento_WishlistAnalytics: [Magento_Wishlist Magento_Analytics]
+    Magento_WishlistGraphQl: [Magento_Customer Magento_CustomerGraphQl]
+    
